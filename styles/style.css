@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  padding-top: 50px;
+}
+
+.header-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-nav-list {
+  padding-top: 79px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.header-nav-link {
+  color: #8C8A8A;
+  font-family: 'Rb';
+  font-size: 18px;
+}
+
+.header-content {
+  margin-top: 30px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.main-header-block {
+  display: flex;
+  gap: 30px;
+}
+
+.main-left-box {
+  max-width: 730px;
+  width: 100%;
+  height: 500px;
+  background: #F0F0F0;
+
+}
+
+.main-text {
+  padding-top: 50px;
+  color: #4581B7;
+  display: flex;
+  align-items: center;
+  font-family: 'Rb';
+  font-size: 20px;
+  padding-left: 50px;
+}
+
+.main-left-paragraf {
+  max-width: 595px;
+  width: 100%;
+  padding-top: 25px;
+  color:  #808080;
+  display: flex;
+  font-family: 'Rb';
+  font-size: 16px;
+  padding-left: 50px;
+}
+
+.main-right-box {
+  max-width: 350px;
+  width: 100%;
+  height: 500px;
+  background: #F0F0F0;
+}
+
+.main-text-paragrav {
+  max-width: 286px;
+  width: 100%;
+  padding-top: 25px;
+  color:  #808080;
+  display: flex;
+  font-family: 'Rb';
+  font-size: 16px;
+  padding-left: 50px;
+}
+
+.main-right-paragraf {
+  padding-top: 30px;
+  color:  #808080;
+  display: flex;
+  font-family: 'Rb';
+  font-size: 16px;
+  padding-left: 50px;
+}
+
+.main-right-email {
+  padding-top: 60px;
+  color:  #808080;
+  display: flex;
+  font-family: 'Rb';
+  font-size: 16px;
+  padding-left: 50px;
+}
+
+.footer-box {
+  max-width: 1110px;
+  width: 100%;
+  height: 150px;
+  background: #F0F0F0;
+}
+
+.logo-img {
+  padding: 15px 15px;
+  padding-left: 40px;
+}
+
+.footer-number {
+  padding-top: 75px;
+  color: #808080;
+  display: flex;
+  font-family: 'Rb';
+  font-size: 25px;
+  padding-left: -45px;
+}
